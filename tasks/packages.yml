@@ -36,4 +36,4 @@
       - wget
       - xorg-server
       - zsh
-
+      - rsync
