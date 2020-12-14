@@ -1,0 +1,11 @@
+- name: add simon user (add pw after)
+  user:
+    name: simon
+    system: yes
+- name: set sudo for simon
+  copy:
+    src: files/sudoers_simon
+    dest: /etc/sudoers.d/simon
+    owner: root
+    group: root
+    mode: 0440

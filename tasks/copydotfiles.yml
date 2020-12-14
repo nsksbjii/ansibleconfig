@@ -1,0 +1,13 @@
+- name: copy vimrc
+  copy:
+    src: files/vimrc
+    dest: /home/simon/.vimrc
+- name: copy dotconfigfolder
+  synchronize:
+    src: /files/config
+    dest: /home/simon/.config
+
+- name: copy passwords
+  copy:
+    src: files/K_E_Y_S.kdbx.gpg
+    dest: /home/simon/K_E_Y_S.kdbx.gpg

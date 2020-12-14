@@ -1,0 +1,6 @@
+2020/12/14-19:14:26.222 3de Reusing MANIFEST /home/ketrptr/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2020/12/14-19:14:26.222 3de Recovering log #18
+2020/12/14-19:14:26.224 3de Reusing old log /home/ketrptr/.config/discord/Local Storage/leveldb/000018.log 
+2020/12/14-20:17:26.912 3b22 Level-0 table #23: started
+2020/12/14-20:17:26.923 3b22 Level-0 table #23: 9217 bytes OK
+2020/12/14-20:17:26.939 3b22 Delete type=0 #18
