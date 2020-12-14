@@ -1,13 +1,16 @@
 - name: copy vimrc
   copy:
     src: files/vimrc
-    dest: /home/simon/.vimrc
+    dest: /home/nsksbjii/.vimrc
 - name: copy dotconfigfolder
   synchronize:
     src: files/config
-    dest: /home/simon/.config
+    dest: /home/nsksbjii/.config
 
 - name: copy passwords
   copy:
     src: files/K_E_Y_S.kdbx.gpg
-    dest: /home/simon/K_E_Y_S.kdbx.gpg
+    dest: /home/nsksbjii/K_E_Y_S.kdbx.gpg
+- name: copy zshrc
+  copy: files/zshrc
+  dest: /home/nsksbjii/.zshrc

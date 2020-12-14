@@ -1,11 +1,11 @@
-- name: add simon user (add pw after)
+- name: add nsksbjii user (add pw after)
   user:
-    name: simon
+    name: nsksbjii
     system: yes
-- name: set sudo for simon
+- name: set sudo for nsksbjii
   copy:
-    src: files/sudoers_simon
-    dest: /etc/sudoers.d/simon
+    src: files/sudoers_nsksbjii
+    dest: /etc/sudoers.d/nsksbjii
     owner: root
     group: root
     mode: 0440
