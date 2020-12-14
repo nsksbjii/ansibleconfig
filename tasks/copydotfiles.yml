@@ -12,5 +12,6 @@
     src: files/K_E_Y_S.kdbx.gpg
     dest: /home/nsksbjii/K_E_Y_S.kdbx.gpg
 - name: copy zshrc
-  copy: files/zshrc
-  dest: /home/nsksbjii/.zshrc
+  copy:
+    src: files/zshrc
+    dest: /home/nsksbjii/.zshrc
