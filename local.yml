@@ -2,8 +2,11 @@
   connection: local
   become: true
 
-  tasks:
-  - name: Install htop
-    pacman:
-      name: htop
+  pre_tasks:
+    - name: update_repositorys
+      pacman:
+        update_cache: yes
+      changed_when: false
 
+  tasks:
+    - include: tasks/packages.yml

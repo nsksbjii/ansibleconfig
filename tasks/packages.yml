@@ -1,0 +1,41 @@
+tasks:
+- name: Install packages
+  pacman:
+    name:
+      - alsa-utils
+      - archlinux-wallpaper
+      - automake
+      - cmake
+      - discord
+      - firefox
+      - foxitreader
+      - gdb
+      - gimp
+      - gtop
+      - hashcat
+      - hashcat-utils
+      - htop
+      - jdk-openjdk
+      - keepassxc
+      - libreoffice-fresh
+      - lightdm-gtk-greeter
+      - lsof
+      - make
+      - man-pages
+      - netstat-nat
+      - nitrogen
+      - nmap
+      - okular
+      - obs-studio
+      - p7zip
+      - picom
+      - pulseaudio
+      - qtile
+      - ranger
+      - speedtest-cli
+      - termite
+      - valgrind
+      - wget
+      - xorg-server
+      - zsh
+
