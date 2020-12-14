@@ -4,7 +4,7 @@
     dest: /home/simon/.vimrc
 - name: copy dotconfigfolder
   synchronize:
-    src: /files/config
+    src: files/config
     dest: /home/simon/.config
 
 - name: copy passwords
