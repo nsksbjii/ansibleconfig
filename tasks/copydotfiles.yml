@@ -1,17 +1,25 @@
+- name: decrypt and unpack files
+  unarchive:
+    creates: /home/nsksbjii/files
+    decrypt: yes
+    dest: /home/nsksbjii/files
+    owner: nsksbjii
+    src: files.tar
+
 - name: copy vimrc
   copy:
-    src: files/vimrc
+    src: /home/nsksbjii/files/vimrc
     dest: /home/nsksbjii/.vimrc
 - name: copy dotconfigfolder
   synchronize:
-    src: files/configi/*
+    src: /home/nsksbjii/files/configi/*
     dest: /home/nsksbjii/.config
 
 - name: copy passwords
   copy:
-    src: files/K_E_Y_S.kdbx.gpg
+    src: /home/nsksbjii/files/K_E_Y_S.kdbx.gpg
     dest: /home/nsksbjii/K_E_Y_S.kdbx.gpg
 - name: copy zshrc
   copy:
-    src: files/zshrc
+    src: /home/nsksbjii/files/zshrc
     dest: /home/nsksbjii/.zshrc
