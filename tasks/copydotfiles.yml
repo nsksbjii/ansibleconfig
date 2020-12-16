@@ -5,7 +5,6 @@
 
 - name: decrypt and unpack files
   unarchive:
-    creates: /home/nsksbjii/files
     decrypt: yes
     dest: /home/nsksbjii/files
     owner: nsksbjii
