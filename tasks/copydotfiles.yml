@@ -6,7 +6,7 @@
 - name: decrypt and unpack files
   unarchive:
     decrypt: yes
-    dest: /home/nsksbjii/files
+    dest: /home/nsksbjii/files/
     owner: nsksbjii
     src: files.tar
 
