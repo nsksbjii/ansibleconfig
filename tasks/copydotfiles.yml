@@ -22,8 +22,8 @@
 
 - name: copy passwords
   copy:
-    src: /home/nsksbjii/files/K_E_Y_S.kdbx.gpg
-    dest: /home/nsksbjii/K_E_Y_S.kdbx.gpg
+    src: /home/nsksbjii/files/K_E_Y_S.kdbx
+    dest: /home/nsksbjii/K_E_Y_S.kdbx
 - name: copy zshrc
   copy:
     src: /home/nsksbjii/files/zshrc
