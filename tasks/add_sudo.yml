@@ -1,0 +1,8 @@
+
+- name: set sudo for nsksbjii
+   copy:
+    src: files/sudoers_nsksbjii
+    dest: /etc/sudoers.d/nsksbjii
+    owner: root
+    group: root
+    mode: 0440
