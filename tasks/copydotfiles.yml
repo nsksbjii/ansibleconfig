@@ -17,8 +17,8 @@
 
 - name: copy dotconfigfolder
   synchronize:
-    src: /home/nsksbjii/files/config/*
-    dest: /home/nsksbjii/.config/
+    src: /home/nsksbjii/files/config
+    dest: /home/nsksbjii/.config
 
 - name: copy passwords
   copy:
