@@ -1,12 +1,7 @@
-- name: create foldeer to unpack files in 
-  file:
-    path: /home/nsksbjii/files
-    state: directory
-
 - name: decrypt and unpack files
   unarchive:
     decrypt: yes
-    dest: /home/nsksbjii/files/
+    dest: /home/nsksbjii/
     owner: nsksbjii
     src: files.tar
 
