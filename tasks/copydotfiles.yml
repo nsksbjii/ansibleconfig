@@ -1,3 +1,8 @@
+- name: create foldeer to unpack files in 
+  file:
+    path: /home/nsksbjii/files
+    state: directory
+
 - name: decrypt and unpack files
   unarchive:
     creates: /home/nsksbjii/files
